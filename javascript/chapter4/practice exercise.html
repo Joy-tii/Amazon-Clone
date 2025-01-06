@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise Exercise</title>
+</head>
+<body>
+    <p id="name-display"></p>
+
+    <script>
+        const myname='jyoti'
+        document.querySelector('#name-display').innerText = myname;
+
+        let bagprize = (15599 - (10 / 100 * 15599)) - 272;
+        let jeansprize = (2499 - (41 / 100 * 2499)) - 29;
+const GSTpercentage = 18
+
+        let bagvalue = Math.round((jeansprize + bagprize + 25 + 20) *( 100 + GSTpercentage)/ 100);
+        let bagsummary = bagvalue
+        console.log(bagsummary);
+        
+        console.log(eval('2+3+5*7-9'))
+    </script>
+</body>
+</html>

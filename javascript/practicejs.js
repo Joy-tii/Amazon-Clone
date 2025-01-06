@@ -1,0 +1,5 @@
+console.log('I am coming from index.js')
+alert('i am inside html page')
+    console.log('hello jyoti')
+    console.warn('this is a warning')
+    console.error('this is a error')
